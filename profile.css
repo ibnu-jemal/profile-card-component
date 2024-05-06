@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Kumbh Sans", sans-serif;
+    background-color:hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+.top-bg{
+    position: relative;
+    top: -20%;
+    overflow: hidden;
+} */
+.cotiner{
+    height: 372px;
+    width: 324px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bg-pattern{
+    width: 100%;
+}
+
+.wrapper{
+    height: 285px;
+}
+.victor-profile{
+    width: 105px;
+    border-radius: 50%;
+    position: absolute;
+    left: 33%;
+    bottom: 180px;
+    border: 6px solid #fff;
+   
+}
+.victor{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.victor span{
+    margin-left: 10px;
+    opacity: 0.7;
+}
+hr{
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+.flp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.follower{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+.follower h4{
+    font-weight: 900;
+    opacity: 0.7;
+
+}
+.follower h6{
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 0.6;
+}
